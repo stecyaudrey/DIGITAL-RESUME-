@@ -13,7 +13,7 @@ h1, h2 {
 .card {
   max-width: 90%;
   margin: auto;
-  background-color: white;
+  background-color: #f4f4f4;
   border-radius: 15px;
   text-align: center;
 }
@@ -28,5 +28,10 @@ li:hover {
 img {
   padding: 10px;
   margin: 10px;
-  max-width: 2000px;
+  max-width: 200px;
+}
+@media (max-width:600px){
+  img {
+    max-width: 150px;
+  }
 }
